@@ -1,0 +1,38 @@
+The given code is a Python implementation of a spam mail prediction system using machine learning. 
+Here is a summary of the code:
+
+1. The code starts by importing the necessary dependencies, including numpy, pandas, and scikit-learn libraries.
+
+2. Data Collection & Pre-Processing:
+The code loads the mail data from a CSV file into a pandas DataFrame.
+Null values in the DataFrame are replaced with empty strings.
+The first 5 rows of the DataFrame are printed.
+The shape (number of rows and columns) of the DataFrame is printed.
+
+3. Label Encoding:
+The spam and ham categories are encoded as 0 and 1, respectively, in the 'Category' column of the DataFrame.
+
+4. Splitting the data:
+The data is split into training and test sets using the train_test_split function from scikit-learn.
+
+5. Feature Extraction:
+The text data is transformed into feature vectors using the TfidfVectorizer from scikit-learn.
+The feature extraction is applied to both the training and test data.
+
+6. Training the Model:
+A Logistic Regression model is created using the LogisticRegression class from scikit-learn.
+The model is trained using the training data.
+
+7. Evaluating the Model:
+The trained model is evaluated by predicting the labels for both the training and test data.
+The accuracy of the model is calculated and printed.
+
+8. Building a Predictive System:
+An example input mail is provided.
+The input text is transformed into a feature vector.
+The trained model is used to predict whether the input mail is spam or ham.
+The prediction is printed as output.
+
+In summary, this code demonstrates the steps involved in training a logistic regression model for spam mail classification. It performs feature extraction using TF-IDF, trains the model, evaluates its accuracy, and provides a predictive system for classifying new input mails as spam or ham.
+
+

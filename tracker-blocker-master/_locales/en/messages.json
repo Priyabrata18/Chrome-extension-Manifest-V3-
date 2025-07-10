@@ -1,0 +1,22 @@
+{
+  "extName": {
+    "message": "Tracker Blocker! by Emanuele Feliziani",
+    "description": "Name of the extension"
+  },
+  "extDescription": {
+    "message": "A tracker blocker created by Emanuele Feliziani @gravida.pro",
+    "description": "Description of the extension to show in the browser extension summary page"
+  },
+  "badgeTitleDefault": {
+    "message": "This icon will show the number of trackers found on the page",
+    "description": "The default title tooltip for the icon"
+  },
+  "badgeTitle_one": {
+    "message": "tracker blocked",
+    "description": "Title tooltip for the badge when English singular"
+  },
+  "badgeTitle_other": {
+    "message": "trackers blocked",
+    "description": "Title tooltip for the badge when English plural"
+  }
+}
